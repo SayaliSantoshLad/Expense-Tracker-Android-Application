@@ -71,6 +71,9 @@ public class ExpenseAdapter extends RecyclerView.Adapter<ExpenseAdapter.ViewHold
         return new ViewHolder(view, listener);
     }
 
+
+
+
     @Override
     public void onBindViewHolder(@NonNull ExpenseAdapter.ViewHolder holder, int position) {
         Expense expense = expenses.get(position);
