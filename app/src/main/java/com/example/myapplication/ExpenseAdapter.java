@@ -69,6 +69,9 @@ public class ExpenseAdapter extends RecyclerView.Adapter<ExpenseAdapter.ViewHold
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.expense_item, parent, false);
         return new ViewHolder(view, listener);
+        /*
+        * add TODO
+        * */
     }
 
 
